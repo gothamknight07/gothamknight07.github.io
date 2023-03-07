@@ -33,11 +33,11 @@ body::before {
 }
 
 a {
-  color: #12d640;
+  color: #f7c318;
 }
 
 a:hover {
-  color: #12d640;
+  color: #f7c318;
   text-decoration: none;
 }
 
@@ -80,12 +80,12 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: #12d640;
+  color: #f7c318;
 }
 
 #header h2 span {
   color: #ffc107;
-  border-bottom: 2px solid #1c7d32;
+  border-bottom: 2px solid #f7c318;
   padding-bottom: 6px;
 }
 
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #12d640;
+  color: #f7c318;
   text-decoration: none;
 }
 
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #1c7d32;
+  color: #f7c318;
   text-decoration: none;
 }
 
@@ -377,26 +377,29 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #1c7d32;
+  color: #f7c318;
 }
 
 .about-me .content ul {
   list-style: none;
   padding: 0;
+  
 }
 
 .about-me .content ul li {
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .about-me .content ul i {
   font-size: 20px;
-  padding-right: 2px;
-  color: #1c7d32;
+  padding-right: 4px;
+  color: #f7c318;
 }
 
 .about-me .content p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 2;
+ 
 }
 
 /*--------------------------------------------------------------
@@ -422,7 +425,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #1c7d32;
+  color: #f7c318;
   border-radius: 50px;
 }
 
@@ -580,7 +583,7 @@ section .container {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #1c7d32 !important;
+  background-color: #f7c318 !important;
 }
 
 @media (max-width: 767px) {
@@ -613,7 +616,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #1c7d32;
+  color: #f7c318;
   margin-bottom: 10px;
 }
 
@@ -665,7 +668,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #1c7d32;
+  background: #f7c318;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -711,7 +714,7 @@ section .container {
 
 .services .icon-box:hover {
   background: #042e5f;
-  border-color: #1c7d32;
+  border-color: #f7c318;
 }
 
 .services .icon-box:hover .icon {
@@ -719,15 +722,15 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #1c7d32;
+  color: #f7c318;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #f7c318;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #12d640;
+  color: #f7c318;
 }
 
 /*--------------------------------------------------------------
@@ -762,7 +765,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #1c7d32;
+  background: #f7c318;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -862,7 +865,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #f7c318;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -908,7 +911,7 @@ section .container {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #28a745;
+  color: #f7c318;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
@@ -936,7 +939,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #12d640;
+  color: #f7c318;
 }
 
 .contact .php-email-form {
@@ -964,7 +967,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #1c7d32;
+  background: #f7c318;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -984,7 +987,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #1c7d32;
+  border: 3px solid #f7c318;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1038,7 +1041,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #1c7d32;
+  background: #f7c318;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1047,7 +1050,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #15bb62;
+  background: #f7c318;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1081,7 +1084,7 @@ section .container {
 }
 
 .credits a {
-  color: #1c7d32;
+  color: #f7c318;
   transition: 0.3s;
 }
 
